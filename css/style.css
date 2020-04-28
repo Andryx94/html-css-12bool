@@ -1,0 +1,21 @@
+/* Generali */
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+[class*="col-"] {
+  position: relative;
+}
+
+.container [class*="col-"] > .container {
+  padding: 5px;
+}
+
+p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* fine generali */
