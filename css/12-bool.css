@@ -1,11 +1,11 @@
 /* Inizio debug */
-/* .debug .container {
+.debug .container {
   border: 1px solid red;
-} */
+}
 
 .debug .container [class*="col-"] {
   background-color: pink;
-  border: 1px solid black;
+  border: 1px solid blue;
   height: 200px;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .col-3 {
-  width: calc( (100% / 12) * 3);
+  width: 25%;
 }
 
 .col-4 {
@@ -67,7 +67,7 @@
 }
 
 .col-6 {
-  width: calc( (100% / 12) * 6);
+  width: 50%;
 }
 
 .col-7 {
@@ -79,7 +79,7 @@
 }
 
 .col-9 {
-  width: calc( (100% / 12) * 9);
+  width: 75%;
 }
 
 .col-10 {
@@ -91,7 +91,7 @@
 }
 
 .col-12 {
-  width: calc( (100% / 12) * 12);
+  width: 100%;
 }
 /* fine colonne */
 
@@ -105,7 +105,7 @@
 }
 
 .offset-3 {
-  margin-left: calc( (100% / 12) * 3);
+  margin-left: 25%;
 }
 
 .offset-4 {
@@ -117,7 +117,7 @@
 }
 
 .offset-6 {
-  margin-left: calc( (100% / 12) * 6);
+  margin-left: 50%;
 }
 
 .offset-7 {
@@ -129,7 +129,7 @@
 }
 
 .offset-9 {
-  margin-left: calc( (100% / 12) * 9);
+  margin-left: 75%;
 }
 
 .offset-10 {
