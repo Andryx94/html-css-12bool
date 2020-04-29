@@ -1,3 +1,11 @@
+/* Reset */
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fine reset */
+
 /* Inizio debug */
 .debug .container {
   border: 1px solid red;
@@ -10,23 +18,15 @@
 }
 
 .debug .container [class*="col-"] > .container [class*="col-"]{
-  background-color: #f07f80;
+  background-color: lightcoral;
   border: 1px solid white;
-  height: 190px;
+  height: 200px;
 }
 
 .debug [class*="offset-"] {
-  border: 3px solid green;
+  border: 1px solid green;
 }
 /* fine debug */
-
-/* Reset */
-*  {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/* fine reset */
 
 /* Generali */
 .container {

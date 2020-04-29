@@ -15,12 +15,13 @@ font-family: 'Roboto', sans-serif;
 
 .container [class*="col-"] > .container {
   padding: 5px;
+  height: 100%
 }
 
 .container [class*="col-"] > .container [class*="col-"]{
-  background-color: #f07f80;
+  background-color: lightcoral;
   border: 1px solid white;
-  height: 190px;
+  height: 100%;
 }
 
 p {
